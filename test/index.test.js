@@ -45,13 +45,15 @@ describe('Strings module', () => {
 
 describe('Dates module', () => {
 
-  test('Return today\'s day - ex. Monday', () => {
+  test('Return today\'s day - ex. Saturday', () => {
     const weekdays = [
       'Monday',
       'Tuesday',
       'Wednesday',
       'Thursday',
-      'Friday'
+      'Friday',
+      'Saturday',
+      'Sunday'
     ]
 
     const day = dates.today()

@@ -2,18 +2,20 @@
 const moment = require('moment');
 
 const today = () => {
-  // write code for dates.today
-  moment().format();
-  
+  let day = moment().format('dddd'); 
+  return day;
 }
+
 
 const calendar = () => {
-  // write code for dates.calendar
+  let cal = moment().format('ll')
+  return cal;
 
 }
-
 const currentTime = () => {
   // write code for dates.currentTime
+    const time = moment().format('LTS');
+    return time
 
 }
 
